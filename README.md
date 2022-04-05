@@ -13,3 +13,7 @@ This is my collection of various breakout boards that do one or more of the foll
 ### ItsyBitsy 32u4 3 & 5V
   * exposes unique pins in (2) 0.3" 16-pin headers so that they can be plugged into a protoboard
   * Qwiic version adds a SMD pad for a 4-cond JST SH Qwiic/STEMMA QT connector and a cut/solder pad for selecting 3 or 5V Qwiic Vcc.
+
+[IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-top.png)
+
+[IB Qwiic Image](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic_top.png)
