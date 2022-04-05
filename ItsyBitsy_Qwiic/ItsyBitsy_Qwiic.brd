@@ -154,8 +154,8 @@
 <wire x1="52.705" y1="18.32" x2="50.705" y2="20.32" width="0" layer="20" curve="90"/>
 <wire x1="50.705" y1="20.32" x2="2" y2="20.32" width="0" layer="20"/>
 <wire x1="2" y1="20.32" x2="0" y2="18.32" width="0" layer="20" curve="90"/>
-<text x="17.653" y="10.16" size="1.27" layer="21" align="center">ItsyBitsy 3V,5V Protoboard Adapter
-Qwiic 1a</text>
+<text x="15.113" y="10.16" size="1.27" layer="21" align="center">ItsyBitsy Protoboard Adapter
+Qwiic 1a  3V board, 5V board</text>
 <text x="2.54" y="3.683" size="0.8128" layer="21" align="bottom-center">RST</text>
 <text x="5.08" y="3.683" size="0.8128" layer="21" align="bottom-center">3,5V</text>
 <text x="7.62" y="3.683" size="0.8128" layer="21" align="bottom-center">ARe</text>
@@ -188,6 +188,8 @@ Qwiic 1a</text>
 <text x="40.64" y="3.683" size="0.8128" layer="21" align="bottom-center">8</text>
 <text x="38.1" y="15.621" size="0.8128" layer="21" align="bottom-center">4</text>
 <text x="40.64" y="15.621" size="0.8128" layer="21" align="bottom-center">6</text>
+<text x="36.957" y="10.795" size="0.8128" layer="21" align="bottom-center">3V,5V</text>
+<text x="36.83" y="8.636" size="0.8128" layer="21" align="bottom-center">G,3V</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
