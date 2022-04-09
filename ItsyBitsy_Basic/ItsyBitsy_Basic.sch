@@ -52,8 +52,10 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -83,7 +85,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="sName" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -93,15 +98,40 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="pDim" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -149,39 +179,39 @@
 <library name="home">
 <packages>
 <package name="ITSYBITYS-32U4">
-<pad name="P$1" x="-6.35" y="-7.62" drill="0.6"/>
-<pad name="P$2" x="-3.81" y="-7.62" drill="0.6"/>
-<pad name="P$3" x="-1.27" y="-7.62" drill="0.6"/>
-<pad name="P$4" x="1.27" y="-7.62" drill="0.6"/>
-<pad name="P$5" x="3.81" y="-7.62" drill="0.6"/>
-<pad name="P$6" x="6.35" y="-7.62" drill="0.6"/>
-<pad name="P$7" x="8.89" y="-7.62" drill="0.6"/>
-<pad name="P$8" x="11.43" y="-7.62" drill="0.6"/>
-<pad name="P$9" x="13.97" y="-7.62" drill="0.6"/>
-<pad name="P$10" x="16.51" y="-7.62" drill="0.6"/>
-<pad name="P$11" x="19.05" y="-7.62" drill="0.6"/>
-<pad name="P$12" x="21.59" y="-7.62" drill="0.6"/>
-<pad name="P$13" x="24.13" y="-7.62" drill="0.6"/>
-<pad name="P$14" x="26.67" y="-7.62" drill="0.6"/>
-<pad name="P$15" x="26.67" y="-5.08" drill="0.6"/>
-<pad name="P$16" x="26.67" y="-2.54" drill="0.6"/>
-<pad name="P$17" x="26.67" y="0" drill="0.6"/>
-<pad name="P$18" x="26.67" y="2.54" drill="0.6"/>
-<pad name="P$19" x="26.67" y="5.08" drill="0.6"/>
-<pad name="P$20" x="26.67" y="7.62" drill="0.6"/>
-<pad name="P$21" x="24.13" y="7.62" drill="0.6"/>
-<pad name="P$22" x="21.59" y="7.62" drill="0.6"/>
-<pad name="P$23" x="19.05" y="7.62" drill="0.6"/>
-<pad name="P$24" x="16.51" y="7.62" drill="0.6"/>
-<pad name="P$25" x="13.97" y="7.62" drill="0.6"/>
-<pad name="P$26" x="11.43" y="7.62" drill="0.6"/>
-<pad name="P$27" x="8.89" y="7.62" drill="0.6"/>
-<pad name="P$28" x="6.35" y="7.62" drill="0.6"/>
-<pad name="P$29" x="3.81" y="7.62" drill="0.6"/>
-<pad name="P$30" x="1.27" y="7.62" drill="0.6"/>
-<pad name="P$31" x="-1.27" y="7.62" drill="0.6"/>
-<pad name="P$32" x="-3.81" y="7.62" drill="0.6"/>
-<pad name="P$33" x="-6.35" y="7.62" drill="0.6"/>
+<pad name="P$1" x="-6.35" y="-7.62" drill="0.9"/>
+<pad name="P$2" x="-3.81" y="-7.62" drill="0.9"/>
+<pad name="P$3" x="-1.27" y="-7.62" drill="0.9"/>
+<pad name="P$4" x="1.27" y="-7.62" drill="0.9"/>
+<pad name="P$5" x="3.81" y="-7.62" drill="0.9"/>
+<pad name="P$6" x="6.35" y="-7.62" drill="0.9"/>
+<pad name="P$7" x="8.89" y="-7.62" drill="0.9"/>
+<pad name="P$8" x="11.43" y="-7.62" drill="0.9"/>
+<pad name="P$9" x="13.97" y="-7.62" drill="0.9"/>
+<pad name="P$10" x="16.51" y="-7.62" drill="0.9"/>
+<pad name="P$11" x="19.05" y="-7.62" drill="0.9"/>
+<pad name="P$12" x="21.59" y="-7.62" drill="0.9"/>
+<pad name="P$13" x="24.13" y="-7.62" drill="0.9"/>
+<pad name="P$14" x="26.67" y="-7.62" drill="0.9"/>
+<pad name="P$15" x="26.67" y="-5.08" drill="0.9"/>
+<pad name="P$16" x="26.67" y="-2.54" drill="0.9"/>
+<pad name="P$17" x="26.67" y="0" drill="0.9"/>
+<pad name="P$18" x="26.67" y="2.54" drill="0.9"/>
+<pad name="P$19" x="26.67" y="5.08" drill="0.9"/>
+<pad name="P$20" x="26.67" y="7.62" drill="0.9"/>
+<pad name="P$21" x="24.13" y="7.62" drill="0.9"/>
+<pad name="P$22" x="21.59" y="7.62" drill="0.9"/>
+<pad name="P$23" x="19.05" y="7.62" drill="0.9"/>
+<pad name="P$24" x="16.51" y="7.62" drill="0.9"/>
+<pad name="P$25" x="13.97" y="7.62" drill="0.9"/>
+<pad name="P$26" x="11.43" y="7.62" drill="0.9"/>
+<pad name="P$27" x="8.89" y="7.62" drill="0.9"/>
+<pad name="P$28" x="6.35" y="7.62" drill="0.9"/>
+<pad name="P$29" x="3.81" y="7.62" drill="0.9"/>
+<pad name="P$30" x="1.27" y="7.62" drill="0.9"/>
+<pad name="P$31" x="-1.27" y="7.62" drill="0.9"/>
+<pad name="P$32" x="-3.81" y="7.62" drill="0.9"/>
+<pad name="P$33" x="-6.35" y="7.62" drill="0.9"/>
 <text x="0" y="2.54" size="1.778" layer="25">&gt;NAME</text>
 <text x="5.08" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-7.62" y1="8.89" x2="27.94" y2="8.89" width="0.127" layer="21"/>
