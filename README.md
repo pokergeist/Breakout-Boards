@@ -18,6 +18,6 @@ This is my collection of various breakout boards that do one or more of the foll
 
 ![IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-top-400.png) ![IB Qwiic Image](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-top-400.png)
 
-### Feater w/ J-Link & Qwiic
+### Feather w/ J-Link & Qwiic
 
 ![Feather J-Link Qwiic](Feather_J-Link_Qwiic/Feather_j-link-top-400.png) ![bottom](Feather_J-Link_Qwiic/Feather_j-link-bot-400.png)
