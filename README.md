@@ -5,7 +5,7 @@
 This is my collection of various breakout boards that do one or more of the following:
   * expose a removable MCU board's pins for headers or soldering
   * make edge-pinned boards like Adafruit's ItsyBitsy adaptable to a protoboard
-  * add an I2C Qwiic/STEMMA QY port
+  * add an I2C Qwiic/STEMMA QT port
   * expose debug pins SWDIO and SWCLK (SAMD21/M0) and the option for a Segger J-Link connector.
 
 ## Directory
@@ -16,5 +16,8 @@ This is my collection of various breakout boards that do one or more of the foll
   * These boards __are being fabricated__ so I can soon mark them as Validated.
   * To Do:
 
-
 ![IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-top-400.png) ![IB Qwiic Image](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-top-400.png)
+
+### Feather w/ J-Link & Qwiic
+
+![Feather J-Link Qwiic](Feather_J-Link_Qwiic/Feather_j-link-top-400.png) ![bottom](Feather_J-Link_Qwiic/Feather_j-link-bot-400.png)
