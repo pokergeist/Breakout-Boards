@@ -16,7 +16,9 @@ This is my collection of various breakout boards that do one or more of the foll
   * The IB Qwiic board have been fabricated so I can soon mark it as Validated.
   * To Do:
 
-![IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-top-400.png) ![IB Qwiic Image](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-top-400.png) ![IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-photo-400.png)
+![IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-top-400.png) ![IB Qwiic Image](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-top-400.png)
+
+![IB Qwiic Photo](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-photo-400.png)
 
 ### Feather w/ J-Link & Qwiic
   * Fabricated and tested to some degree for different projects.
