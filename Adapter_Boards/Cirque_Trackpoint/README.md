@@ -8,4 +8,5 @@ My working title was "QT Stick" - hence the filenames. Ron will be using another
 This board was created to eliminate miniature point-to-point soldering for Assistive Technology Makers (ATMakers.org) by providing an FFC-12 socket on a board
 supporting the soldering of Adafruit's 's castellated pins.
 
-![Board Top](assets/QT Stick-top-400.png)
+![Board Top](assets/QT%20Stick-top-400.png) ![Board Bottom](assets/QT%20Stick-bot-400.png)
+
