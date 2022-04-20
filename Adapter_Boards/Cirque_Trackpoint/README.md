@@ -6,7 +6,7 @@ In the associated appication created by Ron Nelson (nelsonii), the Cirque trackp
 My working title was "QT Stick" - hence the filenames. Ron will be using another name for his product, so the filenames will likely change.
 
 This board was created to eliminate miniature point-to-point soldering for Assistive Technology Makers (ATMakers.org) by providing an FFC-12 socket on a board
-supporting the soldering of Adafruit's 's castellated pins. The FFC-12 cable supports both I2C and SPI interfaces along with other trackpad outputs.
+supporting the soldering of Adafruit's 's castellated pins. The FFC-12 cable supports both I2C and SPI interfaces along with the trackpad's three "button" outputs B1-B3.
 
 ![Board Top](assets/QT%20Stick-top-400.png) ![Board Bottom](assets/QT%20Stick-bot-400.png)
 
