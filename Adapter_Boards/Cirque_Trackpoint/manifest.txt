@@ -1,0 +1,17 @@
+QT Stick.sch  Eagle schematic
+QT Stick.brd  Eagle board layout
+
+QT Stick.pro  Eagle project files
+eagle.epf
+
+QT Stick-top.png  Eagle manufacturing rendered images
+QT Stick-bot.png
+
+Files for manufacturer
+QT Stick_2022-04-08.zip   Gerber files
+QT Stick.mnt              SMD top layer location file
+QT Stick.mnb              SMD bottom layer location file
+
+Parts Lists - should annotate QT Py as Adafruit product #4600
+QT Stick BOM.csv
+QT Stick.htm
