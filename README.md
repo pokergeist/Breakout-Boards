@@ -8,10 +8,11 @@ This is my collection of various breakout boards that do one or more of the foll
   * add an I2C Qwiic/STEMMA QT port
   * expose debug pins SWDIO and SWCLK (SAMD21/M0) and the option for a Segger J-Link connector.
 
-## Directory
+## Directory Contents
 
-__Board directories__ contain the following:
+__Board directories__ typically contain the following:
   * Eagle PCB .brd (board) and .sch (schematic) files.
+  * all Gerber files for manufacturing in a zip file
   * The schematic rendered as PDF.
   * Renderings of the board, top and bottom, and maybe a photo of a populated board.
 
@@ -21,11 +22,11 @@ __Board directories__ contain the following:
   * The IB Qwiic board have been fabricated so I can soon mark it as Validated.
   * To Do:
 
-![IB Basic image](ItsyBitsy_Basic/ItsyBitsy_Basic-top-400.png) ![IB Qwiic Image](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-top-400.png)
-
-![IB Qwiic Photo](ItsyBitsy_Qwiic/ItsyBitsy_Qwiic-photo-400.png)
-
 ### Feather w/ J-Link & Qwiic
   * Fabricated and tested to some degree for different projects.
 
-![Feather J-Link Qwiic](Feather_J-Link_Qwiic/Feather_j-link-top-400.png) ![bottom](Feather_J-Link_Qwiic/Feather_j-link-bot-400.png)
+## Adapter Boards
+
+### Cirque Trackpoint FFC-12 to QT Py Adapter Board
+
+The Cirque Trackpoint (e.g., model TM035035) is a circular capacitive touch sensor module available in different diameters supporting SPI and I2C MCU interfacing. In this instance, the board has solder pads for an Adafruit QT Py SAMD21 M0+ (#4600).

@@ -1,4 +1,4 @@
-### Cirque Trackpoint FFC-12 Adapter Board
+# Cirque Trackpoint FFC-12 to QT Py Adapter Board
 
 The Cirque TM035035 is a capacitive touch sensor module, available in 23, 35, and 40mm diameters, with both SPI and I2C interfaces.
 
@@ -10,3 +10,10 @@ supporting the soldering of Adafruit's 's castellated pins. The FFC-12 cable sup
 
 ![Board Top](assets/QT%20Stick-top-400.png) ![Board Bottom](assets/QT%20Stick-bot-400.png)
 
+## Directory Contents
+
+__Board directories__ typically contain the following:
+  * Eagle PCB .brd (board) and .sch (schematic) files.
+  * all Gerber files for manufacturing in a zip file
+  * The schematic rendered as PDF.
+  * Renderings of the board, top and bottom, and maybe a photo of a populated board.
