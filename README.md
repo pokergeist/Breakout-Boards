@@ -20,13 +20,15 @@ __Board directories__ typically contain the following:
   * exposes unique pins in (2) 0.3" 16-pin headers so that they can be plugged into a protoboard
   * Qwiic version adds a SMD pad for a 4-cond JST SH Qwiic/STEMMA QT connector and a cut/solder pad for selecting 3 or 5V Qwiic Vcc.
   * The IB Qwiic board have been fabricated so I can soon mark it as Validated.
+  * [IB Qwiic README](ItsyBitsy_Qwiic/README.md)
+  * [IB Basic README](ItsyBitsy_Basic/README.md)
   * To Do:
 
-### Feather w/ J-Link & Qwiic
+### [Feather](Feather_J-Link_Qwiic/README.md) w/ J-Link & Qwiic
   * Fabricated and tested to some degree for different projects.
 
 ## Adapter Boards
 
-### Cirque Trackpoint FFC-12 to QT Py Adapter Board
+### [Cirque Trackpoint](Adapter_Boards/Cirque_Trackpoint/README.md) FFC-12 to QT Py Adapter Board
 
 The Cirque Trackpoint (e.g., model TM035035) is a circular capacitive touch sensor module available in different diameters supporting SPI and I2C MCU interfacing. In this instance, the board has solder pads for an Adafruit QT Py SAMD21 M0+ (#4600).
