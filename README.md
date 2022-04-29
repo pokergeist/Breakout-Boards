@@ -24,8 +24,14 @@ __Board directories__ typically contain the following:
   * [IB Basic README](ItsyBitsy_Basic/README.md)
   * To Do:
 
-### [Feather](Feather_J-Link_Qwiic/README.md) w/ J-Link & Qwiic
+### Feather MCU w/ J-Link & Qwiic
+
+#### [Long Form Factor ](Feather_J-Link_Qwiic/README.md)
   * Fabricated and tested to some degree for different projects.
+
+#### [Wide Form Factor](Feather_J-Link_Qwiic/Wide/README.md)
+  * Remixed from a long form factor to a wide one.
+  * Fab pending.
 
 ## Adapter Boards
 
