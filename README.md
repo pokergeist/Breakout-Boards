@@ -16,7 +16,7 @@ __Board directories__ typically contain the following:
   * The schematic rendered as PDF.
   * Renderings of the board, top and bottom, and maybe a photo of a populated board.
 
-### ItsyBitsy 32u4 3 & 5V
+### ItsyBitsy 32u4 3 & 5V MCUs
   * exposes unique pins in (2) 0.3" 16-pin headers so that they can be plugged into a protoboard
   * Qwiic version adds a SMD pad for a 4-cond JST SH Qwiic/STEMMA QT connector and a cut/solder pad for selecting 3 or 5V Qwiic Vcc.
   * The IB Qwiic board have been fabricated so I can soon mark it as Validated.

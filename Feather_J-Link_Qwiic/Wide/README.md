@@ -7,9 +7,16 @@
     * solder pads for a Qwiic/STEMMA QT I2C connector
     * solder pads for I2C pull-up resistors (SMD 1206 size)
 * Same [schematic](../Feather_J-Link_Qwiic-schematic.png) as the narrow board.
-* Fab pending.
+
+## Eagle Rendering
 
 <img src="Feather_j-link_wd-top.png" alt="Board, top" width="400"> <img src="Feather_j-link_wd-bot.png" alt="Board, bottom" width="400"> 
+
+## Assembled
+
+<img src="pcb.jpg" alt="Assembled" width="400">
+
+ 
 
 ## Directory Contents
 
