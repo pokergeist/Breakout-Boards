@@ -16,8 +16,8 @@ Eagle board and schematic files are provided, as well as the zip file containing
 
 
 
-![Board Top](assets/QT_Py_J-Link-bottom.png)
+![Board Bottom](assets/QT_Py_J-Link-bottom.png)
 
 ## Schematic
 
-![Board Top](./assets/QT_Py_J-Link-schematic.png)<u></u>
+![Schematic](assets/QT_Py_J-Link-schematic.png)<u></u>
