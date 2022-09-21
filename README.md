@@ -31,7 +31,12 @@ __Board directories__ typically contain the following:
 
 #### [Wide Form Factor](Feather_J-Link_Qwiic/Wide/README.md)
   * Remixed from a long form factor to a wide one.
-  * Fab pending.
+  * Fabricated and tested.
+
+### Qt Py Breakout w/ J-Link
+
+* This board provides access to all Qt Py and J-Link signals, including the SWDebug pads underneath the Qt Py board.
+* Fab pending.
 
 ## Adapter Boards
 
