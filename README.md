@@ -13,7 +13,7 @@ This is my collection of various breakout boards that do one or more of the foll
 __Board directories__ typically contain the following:
   * Eagle PCB .brd (board) and .sch (schematic) files.
   * all Gerber files for manufacturing in a zip file
-  * The schematic rendered as PDF.
+  * The schematic rendered as png.
   * Renderings of the board, top and bottom, and maybe a photo of a populated board.
 
 ### ItsyBitsy 32u4 3 & 5V MCUs
